@@ -1,0 +1,23 @@
+/* SearchBar.css */
+
+/* SearchBar.css */
+.search-container {
+  width: 400px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  border-radius: 25px;
+  background-color: #f5f5f5;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  width: 400px;
+}

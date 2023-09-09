@@ -1,0 +1,98 @@
+/* @type {import('tailwindcss').Config} */
+
+.glass {
+  backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 422.635px;
+  height: 347.988px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 10px;
+  @apply border-4 border-gray-50 rounded-3xl px-7
+    min-w-max;
+}
+
+.textbox {
+  border-radius: 8px;
+  background: var(--field-color-darker, #eaeaea);
+  width: 356.77px;
+  height: 43.953px;
+}
+.side-span {
+  color: #000;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 105.384px;
+  height: 20.857px;
+  flex-shrink: 0;
+}
+
+.btn {
+  width: 356.77px;
+  height: 43.91px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #4285f4;
+  color: #fff;
+}
+.forgot-span {
+  width: 136.122px;
+  height: 20.857px;
+  flex-shrink: 0;
+  color: var(--Link, #346bd4);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn:hover {
+  background-color: #ff6a6a;
+}
+
+/* input[type="file"] {
+  display: none;
+} */
+/* Base styles for all screen sizes */
+/* You can define your base styles here */
+
+/* Styles for screens with a width of up to 375px (e.g., mobile phones) */
+@media screen and (max-width: 375px) {
+  /* Your CSS rules for 375x667 screens */
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 540px (e.g., larger mobile phones) */
+@media screen and (max-width: 540px) {
+  /* Your CSS rules for 540x720 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1024px (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+  /* Your CSS rules for 1024x600 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1280px (e.g., desktops) */
+@media screen and (max-width: 1280px) {
+  /* Your CSS rules for 1280x800 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}

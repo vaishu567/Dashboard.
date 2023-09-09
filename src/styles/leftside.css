@@ -1,0 +1,109 @@
+.container {
+  width: 100%;
+  display: flex;
+  max-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+}
+/*  */
+
+.svg-container {
+  position: relative; /* Container needs a position context for absolute positioning */
+  width: 100%;
+  height: 100%;
+}
+
+.svg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Text color */
+}
+
+.logo-text {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.36px;
+  margin: 30px;
+  margin-top: 0%;
+}
+
+.icons {
+  display: flex;
+  max-width: 300px;
+  gap: 25px;
+  align-items: center;
+  transform: translate(-37%, 590%);
+}
+.board {
+  color: #fff;
+  right: 50%;
+  font-family: Montserrat;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Base styles for all screen sizes */
+/* You can define your base styles here */
+
+/* Styles for screens with a width of up to 375px (e.g., mobile phones) */
+@media screen and (max-width: 370px) {
+  /* Your CSS rules for 375x667 screens */
+  .container {
+    width: 100px !important;
+    display: flex;
+    /* max-height: 100vh; */
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .svg-container svg {
+    display: none !important;
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 540px (e.g., larger mobile phones) */
+@media screen and (max-width: 540px) {
+  /* Your CSS rules for 540x720 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1024px (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+  /* Your CSS rules for 1024x600 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1280px (e.g., desktops) */
+@media screen and (max-width: 1280px) {
+  /* Your CSS rules for 1280x800 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}

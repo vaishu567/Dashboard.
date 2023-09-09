@@ -1,0 +1,143 @@
+.board {
+  width: 380px !important;
+  margin-left: 30px;
+}
+
+.rest-dash {
+  /* width: 50% !important; */
+}
+
+.container-dash {
+  display: flex;
+  flex-direction: row;
+  /* width: 1440px !important; */
+}
+
+.top-dash {
+  padding-top: 30px !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-con {
+  width: 50%;
+  padding-right: 80px !important;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 790px !important;
+}
+.top-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.bell-icon {
+  width: 18px;
+  height: 20.888px;
+  flex-shrink: 0;
+  padding: 2px;
+  margin-top: 3px !important;
+}
+
+.mask {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  padding: 2px;
+}
+
+/* cards-css */
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  gap: 30px;
+}
+.pro-add {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+@media screen and (max-width: 390px) {
+  /* Your CSS rules for 375x667 screens */
+  .container-dash {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .board {
+    width: 100%;
+    height: 50%;
+  }
+
+  .rest-dash {
+    width: 100%;
+    height: 50%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+  }
+
+  .text-con {
+    display: none;
+  }
+  .top-icons {
+    display: none;
+  }
+  .pro-add {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 540px (e.g., larger mobile phones) */
+@media screen and (max-width: 540px) {
+  /* Your CSS rules for 540x720 screens */
+  .container-dash {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .board {
+    width: 100%;
+    height: 50%;
+  }
+
+  .rest-dash {
+    width: 100%;
+    height: 50%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+  }
+
+  .text-con {
+    display: none;
+  }
+  .top-icons {
+    display: none;
+  }
+  .pro-add {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1024px (e.g., tablets) */

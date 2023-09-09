@@ -1,0 +1,35 @@
+/* FormPopup.css */
+.form-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Style your form fields, labels, and buttons as needed */
+.form-popup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-popup label {
+  margin-bottom: 10px;
+}
+
+.form-popup input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.form-popup button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

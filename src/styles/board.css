@@ -1,0 +1,116 @@
+.container-board {
+  width: 280px;
+  height: 840px;
+  /* max-height: 890px; */
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #4285f4 0%, #3c83f9 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.con {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  display: inline-flex;
+  flex-direction: row;
+  height: 20px;
+  border-radius: 9px;
+  gap: 9px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 29px;
+  padding-top: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 200px;
+  gap: 10px;
+}
+
+/* Base styles for all screen sizes */
+/* You can define your base styles here */
+
+/* Styles for screens with a width of up to 375px (e.g., mobile phones) */
+@media screen and (max-width: 375px) {
+  /* Your CSS rules for 375x667 screens */
+  .container-board {
+    width: 100vh;
+    height: 50vh;
+    padding: 10px 10px;
+    padding-top: 20px;
+
+    /* Adjust container styles for this size */
+  }
+  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .footer {
+    display: none;
+  }
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 540px (e.g., larger mobile phones) */
+@media screen and (max-width: 540px) {
+  /* Your CSS rules for 540x720 screens */
+  .container-board {
+    width: 100vh;
+    height: 50vh;
+    padding: 10px 10px;
+    padding-top: 20px;
+
+    /* Adjust container styles for this size */
+  }
+  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1024px (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+  /* Your CSS rules for 1024x600 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1280px (e.g., desktops) */
+@media screen and (max-width: 1280px) {
+  /* Your CSS rules for 1280x800 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}

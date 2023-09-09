@@ -1,0 +1,17 @@
+.left-side {
+  max-width: 50% !important;
+  height: 1024px;
+  flex-shrink: 0;
+}
+.right-side {
+  max-width: 50% !important;
+  flex-shrink: 0;
+}
+.container {
+  max-height: 100vh !important;
+  flex-shrink: 0;
+  max-width: 1440px !important;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}

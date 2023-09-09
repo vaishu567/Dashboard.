@@ -1,0 +1,70 @@
+/* MyComponent.css */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.above-svg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  z-index: 1;
+}
+
+.svg-image {
+  z-index: 0;
+}
+.container-scard {
+  width: 237.32px;
+  height: 120px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+}
+
+.label {
+  color: var(--supportive-roshi-100, #3cc952);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Figtree;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 160% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.text {
+  color: #000;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.label-con {
+  display: flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34px;
+  background: #e9f9eb;
+}
+.amount-label {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.amount {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* Base styles for all screen sizes */
+/* You can define your base styles here */

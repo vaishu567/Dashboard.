@@ -1,0 +1,90 @@
+.down {
+  height: 20.857px;
+  flex-shrink: 0;
+  color: var(--Secondary-Text, #858585);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vh;
+}
+
+.opt {
+  width: 197.596px;
+  height: 32.933px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  padding: 9px;
+  border-radius: 9px;
+  margin-left: 5px;
+  gap: 6px;
+  row-gap: 7px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+.txt {
+  color: var(--Secondary-Text, #858585);
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 129.535px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Base styles for all screen sizes */
+/* You can define your base styles here */
+
+/* Styles for screens with a width of up to 375px (e.g., mobile phones) */
+@media screen and (max-width: 375px) {
+  /* Your CSS rules for 375x667 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 540px (e.g., larger mobile phones) */
+@media screen and (max-width: 540px) {
+  /* Your CSS rules for 540x720 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1024px (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+  /* Your CSS rules for 1024x600 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
+
+/* Styles for screens with a width of up to 1280px (e.g., desktops) */
+@media screen and (max-width: 1280px) {
+  /* Your CSS rules for 1280x800 screens */
+  .container {
+    /* Adjust container styles for this size */
+  }
+
+  /* Add more specific styles for this size if needed */
+}
